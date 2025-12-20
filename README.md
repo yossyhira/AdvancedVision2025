@@ -1,14 +1,16 @@
 # AdvancedVision2025
 現在作成中です．
-## 概要
-
-
 千葉工業大学大学院未来ロボティクス専攻 2025年度 アドバンスドビジョンで作成した課題．
+## 概要
+MNISTの手書き数字データセットの画像を入力して何の数が書かれていたかを出力するタスクをおこなった画像分類のCNNモデルです．
 
+## 作成したCNNモデルの説明
+![model](https://github.com/user-attachments/assets/20b676da-cb75-4ccb-9c58-7de2746f71d8)
 
 ## インストール方法
-
-![model](https://github.com/user-attachments/assets/20b676da-cb75-4ccb-9c58-7de2746f71d8)
+クローンして
+## 動作までの手順
+googledriveにアップロードしてcolab開く
 ## 動作環境
 ### 必要なソフトウェア　
 
