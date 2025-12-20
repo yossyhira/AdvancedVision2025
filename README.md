@@ -59,7 +59,7 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 本モデルは MNIST データセットを用いて5-epoch学習をおこなった．
 学習時の精度（accuracy）および損失（loss）の推移グラフを示す．
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/11e9d848-5cf8-4cb6-a394-78d113f5e51a" width="500">
+  <img src="https://github.com/user-attachments/assets/11e9d848-5cf8-4cb6-a394-78d113f5e51a" width="700">
 </p>
 
 ## 結果
