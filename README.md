@@ -43,8 +43,6 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 
 ## 動作環境
 
-本コードは以下の環境で動作確認をおこなっています．
-
 - 実行環境：Google Colab
 - Python：3.12.12
 - PyTorch：2.9.0+cu126
