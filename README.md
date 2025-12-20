@@ -14,7 +14,10 @@ MNISTの手書き数字データセットの画像を入力して何の数が書
 - Google Colab でそのまま実行可能
 
 ## ネットワーク構成
-![model](https://github.com/user-attachments/assets/20b676da-cb75-4ccb-9c58-7de2746f71d8)
+<p align="center">
+  <img src="画像URL" width="500"><br>
+  図1：作成したCNNモデルのブロック図
+</p>
 
 ## インストール方法
 クローンして
