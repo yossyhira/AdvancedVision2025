@@ -15,14 +15,27 @@ MNISTの手書き数字データセットの画像を入力して何の数が書
 
 ## ネットワーク構成
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/20b676da-cb75-4ccb-9c58-7de2746f71d8" width="500"><br>
-  図：作成したCNNモデルのブロック図
+  <img src="https://github.com/user-attachments/assets/20b676da-cb75-4ccb-9c58-7de2746f71d8" width="500">
 </p>
 
 ## インストール方法
-クローンして
-## 動作までの手順
-googledriveにアップロードしてcolab開く
+
+本リポジトリは Python / PyTorch を用いた Jupyter Notebook（`.ipynb`）形式のコードです．  
+ローカル環境での動作確認はおこなっておらず，Google Colab 上での実行を前提としています．
+
+1. 本リポジトリを GitHub からクローン(下記コード)，または ZIP としてダウンロードする
+```
+git clone https://github.com/yossyhira/AdvancedVision2025.git
+```
+2. ダウンロードした `adv.ipynb` ファイルを [Google Drive](https://accounts.google.com/Login?hl=ja&service=writely&lp=1) にアップロードする
+
+## 実行方法（Google Colab）
+
+1. [Google Colab](https://colab.research.google.com/)にアクセスする
+2. 「ファイル」→「ノートブックを開く」→「Google Drive」から，本リポジトリの `adv.ipynb` ファイルを開く
+3. ランタイムの種類を「Python 3」に設定する
+4. 必要に応じて「ランタイム」→「ランタイムのタイプを変更」から GPU（T4 など）を有効にする
+5. ノートブック上部から順にセルを実行する
 ## 動作環境
 ### 必要なソフトウェア　
 
