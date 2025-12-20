@@ -29,6 +29,10 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 ```
 2. ダウンロードした `adv.ipynb` ファイルを [Google Drive](https://accounts.google.com/Login?hl=ja&service=writely&lp=1) にアップロードする
 
+※ MNIST データセットは torchvision.datasets.MNIST を用いて取得し，
+ノートブックの初回実行時に自動的にダウンロードされます．
+
+
 ## 実行方法（Google Colab）
 
 1. [Google Colab](https://colab.research.google.com/)にアクセスする
@@ -50,6 +54,29 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 - scikit-learn：1.6.1
 - CUDA：12.6
 
+## 学習
+
+本モデルは MNIST データセットを用いて5-epoch学習をおこなった．
+学習時の精度（accuracy）および損失（loss）の推移を図に示す．
+
+## 結果
+
+上記の学習済みモデルでテストデータに対して推論をおこなった結果を以下に示す．
+
+### 精度
+- テスト精度（accuracy）：98.4 %
+- テスト損失（loss）：4.6 %
+
+### 混同行列
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/89ecee1f-28ac-431c-b2b6-5283bbba268c" width="500">
+</p>
+
+### 認識の成功/失敗例
+上段が成功例，下段が失敗例です．
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/81f34af8-0a8a-46ed-9805-ef713a7ba703" width="500">
+</p>
 
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
