@@ -15,8 +15,8 @@ MNISTの手書き数字データセットの画像を入力して何の数が書
 
 ## ネットワーク構成
 <p align="center">
-  <img src="画像URL" width="100"><br>
-  図1：作成したCNNモデルのブロック図
+  <img src="https://github.com/user-attachments/assets/20b676da-cb75-4ccb-9c58-7de2746f71d8" width="500"><br>
+  図：作成したCNNモデルのブロック図
 </p>
 
 ## インストール方法
