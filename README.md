@@ -23,11 +23,11 @@ MNISTの手書き数字データセットの画像を入力して何の数が書
 
 ## インストール方法
 
-1. 本リポジトリを GitHub からクローン(下記コード)，または ZIP としてダウンロードする
+1. 本リポジトリを GitHub からクローン(下記コード)，または ZIP としてダウンロードしてください．
 ```
 git clone https://github.com/yossyhira/AdvancedVision2025.git
 ```
-2. ダウンロードした `adv.ipynb` ファイルを [Google Drive](https://accounts.google.com/Login?hl=ja&service=writely&lp=1) にアップロードする
+2. ダウンロードした `adv.ipynb` ファイルを [Google Drive](https://accounts.google.com/Login?hl=ja&service=writely&lp=1) にアップロードしてください．
 
 ※ MNIST データセットは torchvision.datasets.MNIST を用いて取得し，
 ノートブックの初回実行時に自動的にダウンロードされます．
@@ -35,11 +35,11 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 
 ## 実行方法（Google Colab）
 
-1. [Google Colab](https://colab.research.google.com/)にアクセスする
-2. 「ファイル」→「ノートブックを開く」→「Google Drive」から，本リポジトリの `adv.ipynb` ファイルを開く
-3. ランタイムの種類を「Python 3」に設定する
-4. 「ランタイム」→「ランタイムのタイプを変更」から GPU（T4 など）を有効にする
-5. ノートブック上部から順にセルを実行する
+1. [Google Colab](https://colab.research.google.com/)にアクセスしてください．
+2. 「ファイル」→「ノートブックを開く」→「Google Drive」から，本リポジトリの `adv.ipynb` ファイルを開いてください．
+3. ランタイムの種類を「Python 3」に設定してください．
+4. 「ランタイム」→「ランタイムのタイプを変更」から GPU（T4 など）を有効にしてください．
+5. ノートブック上部から順にセルを実行してください．
 
 ## 動作環境
 
@@ -56,15 +56,16 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 
 ## 学習
 
-本モデルは MNIST データセットを用いて5-epoch学習をおこなった．
-学習時の精度（accuracy）および損失（loss）の推移グラフを示す．
+本モデルで MNIST データセットを用いて5-epoch学習をおこないました．
+
+以下は，学習時の精度（accuracy）および損失（loss）の推移グラフです．
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0c9dfaab-4325-43d8-9b97-7e930e28e753" width="700">
 </p>
 
 ## 結果
 
-上記の学習済みモデルでテストデータに対して推論をおこなった結果を以下に示す．
+以下は，上記の学習済みモデルでテストデータに対して推論をおこなった結果です．
 
 ### 精度
 - テスト精度（accuracy）：98.4 %
