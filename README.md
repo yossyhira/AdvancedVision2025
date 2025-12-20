@@ -1,6 +1,9 @@
 # AdvancedVision2025
 現在作成中です．
 千葉工業大学大学院未来ロボティクス専攻 2025年度 アドバンスドビジョンで作成した課題．
+本リポジトリは Python / PyTorch を用いた Jupyter Notebook（`.ipynb`）形式のコードです．  
+ローカル環境での動作確認はおこなっておらず，Google Colab 上での実行を前提としています．
+
 ## 概要
 MNISTの手書き数字データセットの画像を入力して何の数が書かれていたかを出力するタスクをおこなった画像分類のCNNモデルです．
 
@@ -20,9 +23,6 @@ MNISTの手書き数字データセットの画像を入力して何の数が書
 
 ## インストール方法
 
-本リポジトリは Python / PyTorch を用いた Jupyter Notebook（`.ipynb`）形式のコードです．  
-ローカル環境での動作確認はおこなっておらず，Google Colab 上での実行を前提としています．
-
 1. 本リポジトリを GitHub からクローン(下記コード)，または ZIP としてダウンロードする
 ```
 git clone https://github.com/yossyhira/AdvancedVision2025.git
@@ -34,10 +34,22 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 1. [Google Colab](https://colab.research.google.com/)にアクセスする
 2. 「ファイル」→「ノートブックを開く」→「Google Drive」から，本リポジトリの `adv.ipynb` ファイルを開く
 3. ランタイムの種類を「Python 3」に設定する
-4. 必要に応じて「ランタイム」→「ランタイムのタイプを変更」から GPU（T4 など）を有効にする
+4. 「ランタイム」→「ランタイムのタイプを変更」から GPU（T4 など）を有効にする
 5. ノートブック上部から順にセルを実行する
+
 ## 動作環境
-### 必要なソフトウェア　
+
+本コードは以下の環境で動作確認をおこなっています．
+
+- 実行環境：Google Colab
+- Python：3.12.12
+- PyTorch：2.9.0+cu126
+- torchvision：0.24.0+cu126
+- NumPy：2.0.2
+- Matplotlib：3.10.0
+- scikit-learn：1.6.1
+- CUDA：12.6
+
 
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
