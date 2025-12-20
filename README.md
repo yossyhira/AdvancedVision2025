@@ -80,6 +80,8 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
   <img src="https://github.com/user-attachments/assets/81f34af8-0a8a-46ed-9805-ef713a7ba703" width="500">
 </p>
 
+## 謝辞
+
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
