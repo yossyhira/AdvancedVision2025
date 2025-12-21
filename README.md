@@ -56,7 +56,7 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 ## 学習
 
 本モデルで MNIST データセットを用いて5-epoch学習をおこないました．
-学習データとして訓練用画像48,000枚，検証用画像12,000枚使用しました(**8 : 2 分割**)．
+学習データとして訓練用画像48,000枚，検証用画像12,000枚を使用しました(**8 : 2 分割**)．
 以下は，学習時の精度（accuracy）および損失（loss）の推移グラフです．
 <p align="center">
   <img src="./README_Fig/accloss.png" width="700">
@@ -65,7 +65,7 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 ## 結果
 
 以下は，上記の学習済みモデルでテストデータに対して予測をおこなった結果です．
-テストデータとして10,000枚使用しました．
+テストデータとして10,000枚を使用しました．
 ### 精度
 - テスト精度（accuracy）：98.4 %
 - テスト損失（loss）：4.6 %
