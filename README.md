@@ -59,7 +59,7 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 学習データとして訓練用画像48,000枚，検証用画像12,000枚を使用しました(**8 : 2 分割**)．
 以下は，学習時の精度（accuracy）および損失（loss）の推移グラフです．
 <p align="center">
-  <img src="./README_Fig/accloss.png" width="500">
+  <img src="./README_Fig/accloss.png" width="1000">
 </p>
 
 ## 結果
@@ -72,7 +72,7 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 
 ### 混同行列
 <p align="center">
-  <img src="./README_Fig/mat.png" width="500">
+  <img src="./README_Fig/mat.png" width="750">
 </p>
 
 ### 認識の成功/失敗例
