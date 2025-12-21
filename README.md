@@ -13,7 +13,7 @@ MNISTの手書き数字データセットの画像を入力して何の数が書
 - MNIST（28×28, グレースケール）対応
 - 中間層：ReLU
 - 出力層：Softmax(交差エントロピー損失内で適用)
-- 訓練 / 検証 / テスト = **7 : 2 : 1 分割**
+- 訓練 / 検証  = **8 : 2 分割**
 - Google Colab でそのまま実行可能
 
 ## ネットワーク構成
@@ -55,7 +55,7 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 ## 学習
 
 本モデルで MNIST データセットを用いて5-epoch学習をおこないました．
-
+学習データとして訓練用画像48,000枚，検証用画像12,000枚使用しました(**8 : 2 分割**)．
 以下は，学習時の精度（accuracy）および損失（loss）の推移グラフです．
 <p align="center">
   <img src="./README_Fig/accloss.png" width="700">
@@ -64,7 +64,7 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 ## 結果
 
 以下は，上記の学習済みモデルでテストデータに対して推論をおこなった結果です．
-
+テストデータとして10,000枚使用しました．
 ### 精度
 - テスト精度（accuracy）：98.4 %
 - テスト損失（loss）：4.6 %
