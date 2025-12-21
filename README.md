@@ -18,7 +18,7 @@ MNISTの手書き数字データセットの画像を入力して何の数が書
 
 ## ネットワーク構成
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/20b676da-cb75-4ccb-9c58-7de2746f71d8" width="500">
+  <img src="./README_Fig/block.png" width="500">
 </p>
 
 ## インストール方法
@@ -58,7 +58,7 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 
 以下は，学習時の精度（accuracy）および損失（loss）の推移グラフです．
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0c9dfaab-4325-43d8-9b97-7e930e28e753" width="700">
+  <img src="./README_Fig/accloss.png" width="700">
 </p>
 
 ## 結果
@@ -71,13 +71,13 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 
 ### 混同行列
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/89ecee1f-28ac-431c-b2b6-5283bbba268c" width="500">
+  <img src="./README_Fig/mat.png" width="500">
 </p>
 
 ### 認識の成功/失敗例
 上段が成功例，下段が失敗例です．
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/81f34af8-0a8a-46ed-9805-ef713a7ba703" width="500">
+  <img src="./README_Fig/exp.png" width="500">
 </p>
 
 ## 謝辞
