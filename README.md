@@ -5,7 +5,7 @@
 ローカル環境での動作確認はおこなっておらず，Google Colab 上での実行を前提としています．
 
 ## 概要
-MNISTの手書き数字データセットの画像を入力として何の数が書かれていたかを予測を出力するタスクをおこなった画像分類のCNNモデルです．
+MNIST の手書き数字データセットの画像を入力として，画像中に書かれた数字のクラスを予測する画像分類用 CNN モデルです．
 
 本モデルは中間層にReLu，損失関数は交差エントロピーを使用しています．また，最終層でクラスごとのスコア（logits）を出力し，交差エントロピー損失を用いることで Softmax に基づく多クラス分類をおこなっています．
 
@@ -40,6 +40,11 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 3. ランタイムの種類を「Python 3」に設定してください．
 4. 「ランタイム」→「ランタイムのタイプを変更」から GPU（T4 など）を有効にしてください．
 5. ノートブック上部から順にセルを実行してください．
+
+または，以下のボタンから，Google Colab 上でノートブックを直接開き，ノートブック上部から順にセルを実行してください．
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/yossyhira/AdvancedVision2025/blob/main/adv.ipynb)
 
 ## 動作環境
 
