@@ -41,10 +41,6 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 4. 「ランタイム」→「ランタイムのタイプを変更」から GPU（T4 など）を有効にしてください．
 5. ノートブック上部から順にセルを実行してください．
 
-または，以下のボタンから，Google Colab 上でノートブックを直接開き，ノートブック上部から順にセルを実行してください．
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yossyhira/AdvancedVision2025/blob/main/adv.ipynb)
-
 
 ## 動作環境
 
