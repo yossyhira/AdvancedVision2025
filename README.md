@@ -44,6 +44,7 @@ git clone https://github.com/yossyhira/AdvancedVision2025.git
 ## 動作環境
 
 - 実行環境：Google Colab
+- GPU：NVIDIA Tesla T4
 - Python：3.12.12
 - PyTorch：2.9.0+cu126
 - torchvision：0.24.0+cu126
