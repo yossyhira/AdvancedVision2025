@@ -1,4 +1,4 @@
-[日本語](README.md)||[English](README_EN.md)
+[日本語](README.md) || [English](README_EN.md)
 
 # AdvancedVision2025
 
@@ -144,7 +144,7 @@ the bottom row shows **misclassified examples**.
   [torchvision.datasets.MNIST](https://docs.pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html).
 
 - The following resource was referenced for implementing CNN models in Python:
-  - [Introduction to Convolutional Neural Networks (CNNs)](https://zero2one.jp/learningblog/cnn-for-beginners/)
+  - [畳み込みニューラルネットワーク(CNN)をわかりやすく基本から実装まで解説](https://zero2one.jp/learningblog/cnn-for-beginners/)
 
 - The network architectures were designed with reference to the following papers:
   - [LeNet](https://direct.mit.edu/neco/article-abstract/1/4/541/5515/Backpropagation-Applied-to-Handwritten-Zip-Code)

@@ -1,4 +1,4 @@
-[日本語](README.md)||[English](README_EN.md)
+[日本語](README.md) || [English](README_EN.md)
 
 # AdvancedVision2025
 千葉工業大学大学院未来ロボティクス専攻 2025年度 アドバンスドビジョンで作成した課題．
