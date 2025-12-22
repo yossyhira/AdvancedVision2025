@@ -18,6 +18,7 @@
 ## ネットワーク構成
 本モデルは2つの畳込み層とプーリング層，3つの全結合層から構成されています.
 中間層にReLu関数を使用し，最終層でSoftmax関数に基づく10クラス分類をおこなっています．
+
 以下に本モデルのネットワーク構成のブロック図を示します.
 <p align="center">
   <img src="./README_Fig/block.png" width="500">
@@ -30,7 +31,10 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yossyhira/AdvancedVision2025/blob/main/adv.ipynb)
 
-2. ランタイムの種類を「Python 3」に設定し,「ランタイムのタイプを変更」から GPU（T4 など）を有効にしてください．
+2. ランタイムの種類を「Python 3」に設定し,「ランタイムのタイプを変更」から GPU（T4 など）を有効にしてください(赤丸部分)．
+<p align="center">
+  <img src="./README_Fig/Colab_jp.png" width="500">
+</p>
 
 3. ノートブック上部から順にセルを実行してください．
 
@@ -63,7 +67,6 @@ MNISTデータセットは手書き数字(0~9)の画像データセットで60,0
 </p>
 
 ### 結果
-
 以下は，上記の学習済みモデルでテスト用データに対して予測をおこなった結果です．
  
 #### 精度
