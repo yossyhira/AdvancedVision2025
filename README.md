@@ -86,7 +86,7 @@ MNISTデータセットは手書き数字(0~9)の画像データセットで60,0
   <img src="./README_Fig/exp.png" width="500">
 </p>
 
-## 謝辞
+## 参考文献
 - 性能評価で使用した MNIST データセットは，Y. LeCun らによって公開されたデータセットであり，本実装では [torchvision.datasets.MNIST](https://docs.pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html) を通じて取得したものを使用しました．
 
 - CNNモデルを構成するためのPythonのコードの書き方について下記のサイトを参考にさせて頂きました.
