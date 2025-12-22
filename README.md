@@ -31,7 +31,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yossyhira/AdvancedVision2025/blob/main/adv.ipynb)
 
-2. ランタイムの種類を「Python 3」に設定し,「ランタイムのタイプを変更」から GPU（T4 など）を有効にしてください(赤丸部分)．
+2. ランタイムのタイプを「Python 3」に設定し, ハードウェア アクセラレータを GPU（T4 推奨）に設定してください(赤丸部分)．
 <p align="center">
   <img src="./README_Fig/Colab_jp.png" width="500">
 </p>
