@@ -30,9 +30,9 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yossyhira/AdvancedVision2025/blob/main/adv.ipynb)
 
-3. ランタイムの種類を「Python 3」に設定し,「ランタイムのタイプを変更」から GPU（T4 など）を有効にしてください．
+2. ランタイムの種類を「Python 3」に設定し,「ランタイムのタイプを変更」から GPU（T4 など）を有効にしてください．
 
-4. ノートブック上部から順にセルを実行してください．
+3. ノートブック上部から順にセルを実行してください．
 
 
 
