@@ -1,6 +1,6 @@
 # AdvancedVision2025
-現在作成中です．
 千葉工業大学大学院未来ロボティクス専攻 2025年度 アドバンスドビジョンで作成した課題．
+
 本リポジトリでは，Python / PyTorch を用いて実装した Jupyter Notebook（`.ipynb`）形式のコードを公開しています． 
 ローカル環境での動作確認はおこなっておらず，Google Colab 上での実行を前提としています．
 
@@ -95,7 +95,7 @@ MNISTデータセットは手書き数字(0~9)の画像データセットで60,0
   - [AlexNet](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
 - CNNのネットワーク構成のブロック図は下記のサイトを参考にさせて頂きました.
   - [File:AlexNet_block_diagram.svg](https://commons.wikimedia.org/wiki/File:AlexNet_block_diagram.svg)
-  
+
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
