@@ -89,9 +89,10 @@ MNISTデータセットは手書き数字(0~9)の画像データセットで60,0
   - [畳み込みニューラルネットワーク(CNN)をわかりやすく基本から実装まで解説](https://zero2one.jp/learningblog/cnn-for-beginners/)
 
 - CNNモデルのネットワーク構成について下記の論文を参考にさせて頂きました.
-
+  - [LeNet](https://direct.mit.edu/neco/article-abstract/1/4/541/5515/Backpropagation-Applied-to-Handwritten-Zip-Code)
+  - [AlexNet](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
 - CNNのネットワーク構成のブロック図は下記のサイトを参考にさせて頂きました.
-
+  - [File:AlexNet_block_diagram.svg](https://commons.wikimedia.org/wiki/File:AlexNet_block_diagram.svg)
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
