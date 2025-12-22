@@ -33,8 +33,8 @@ for **5 epochs**, achieving an **accuracy of 98.6%** and a **loss of 4.3%**.
 
 ## Network Architecture
 
-The model consists of **two convolutional layers with pooling layers**
-followed by **three fully connected layers**.
+The model takes **28×28 grayscale images** as input and consists of **two convolutional layers**
+and **two pooling layers**, followed by **three fully connected layers**.
 ReLU activation functions are used in the intermediate layers, and
 **10-class classification based on Softmax** is performed at the final layer.
 
