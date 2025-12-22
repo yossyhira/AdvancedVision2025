@@ -27,11 +27,16 @@
 ## 実行方法（Google Colab）
 
 1.以下のボタンから，Google Colab 上でノートブックを直接開くことができます．
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/github/yossyhira/AdvancedVision2025/blob/main/adv.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yossyhira/AdvancedVision2025/blob/main/adv.ipynb)
+
 2. ランタイムの種類を「Python 3」に設定してください．
+
 3. 「ランタイム」→「ランタイムのタイプを変更」から GPU（T4 など）を有効にしてください．
+
 4. ノートブック上部から順にセルを実行してください．
+
+
 
 
 ## 動作環境
