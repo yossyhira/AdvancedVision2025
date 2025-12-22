@@ -89,7 +89,7 @@ MNISTデータセットは手書き数字(0~9)の画像データセットで60,0
 ## 謝辞
 - 性能評価で使用した MNIST データセットは，Y. LeCun らによって公開されたデータセットであり，本実装では [torchvision.datasets.MNIST](https://docs.pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html) を通じて取得したものを使用しました．
 
-- CNNモデルを構成するためのpythonのコードの書き方について下記のサイトを参考にさせて頂きました.
+- CNNモデルを構成するためのPythonのコードの書き方について下記のサイトを参考にさせて頂きました.
   - [畳み込みニューラルネットワーク(CNN)をわかりやすく基本から実装まで解説](https://zero2one.jp/learningblog/cnn-for-beginners/)
 
 - CNNモデルのネットワーク構成について下記の論文を参考にさせて頂きました.
