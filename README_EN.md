@@ -14,7 +14,7 @@ on **Google Colab**.
 
 ## Overview
 
-The proposed model is a convolutional neural network (CNN) that performs
+This model is a convolutional neural network (CNN) that performs
 **10-class image classification** using **28×28 grayscale images** as input.
 
 For performance evaluation, the model was trained on the **MNIST dataset**
@@ -79,7 +79,7 @@ A block diagram of the network architecture is shown below.
 
 ## Performance Evaluation
 
-The performance of the proposed model was evaluated using the **MNIST dataset**.
+The performance of this model was evaluated using the **MNIST dataset**.
 The MNIST dataset consists of handwritten digit images (digits 0–9),
 with **60,000 training samples** and **10,000 test samples**.
 
