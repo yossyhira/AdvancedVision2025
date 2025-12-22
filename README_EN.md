@@ -1,4 +1,4 @@
-[日本語](README.md)[English](README_EN.md)
+[日本語](README.md)||[English](README_EN.md)
 
 # AdvancedVision2025
 
