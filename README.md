@@ -85,6 +85,8 @@ MNISTデータセットは手書き数字(0~9)の画像データセットで60,0
 </p>
 
 ## 謝辞
+- 性能評価で使用した MNIST データセットは，Y. LeCun らによって公開されたデータセットであり，本実装では [torchvision.datasets.MNIST](https://docs.pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html) を通じて取得したものを使用しました．
+
 - CNNモデルを構成するためのpythonのコードの書き方について下記のサイトを参考にさせて頂きました.
   - [畳み込みニューラルネットワーク(CNN)をわかりやすく基本から実装まで解説](https://zero2one.jp/learningblog/cnn-for-beginners/)
 
@@ -93,6 +95,7 @@ MNISTデータセットは手書き数字(0~9)の画像データセットで60,0
   - [AlexNet](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
 - CNNのネットワーク構成のブロック図は下記のサイトを参考にさせて頂きました.
   - [File:AlexNet_block_diagram.svg](https://commons.wikimedia.org/wiki/File:AlexNet_block_diagram.svg)
+  
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
