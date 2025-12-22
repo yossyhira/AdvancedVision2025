@@ -23,23 +23,15 @@
   <img src="./README_Fig/block.png" width="500">
 </p>
 
-## インストール方法
-
-1. 本リポジトリを GitHub からクローン(下記コード)，または ZIP としてダウンロードしてください．
-```
-git clone https://github.com/yossyhira/AdvancedVision2025.git
-```
-2. ダウンロードした `adv.ipynb` ファイルを [Google Drive](https://accounts.google.com/Login?hl=ja&service=writely&lp=1) にアップロードしてください．
-．
-
 
 ## 実行方法（Google Colab）
 
-1. [Google Colab](https://colab.research.google.com/)にアクセスしてください．
-2. 「ファイル」→「ノートブックを開く」→「Google Drive」から，本リポジトリの `adv.ipynb` ファイルを開いてください．
-3. ランタイムの種類を「Python 3」に設定してください．
-4. 「ランタイム」→「ランタイムのタイプを変更」から GPU（T4 など）を有効にしてください．
-5. ノートブック上部から順にセルを実行してください．
+1.以下のボタンから，Google Colab 上でノートブックを直接開くことができます．
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/yossyhira/AdvancedVision2025/blob/main/adv.ipynb)
+2. ランタイムの種類を「Python 3」に設定してください．
+3. 「ランタイム」→「ランタイムのタイプを変更」から GPU（T4 など）を有効にしてください．
+4. ノートブック上部から順にセルを実行してください．
 
 
 ## 動作環境
