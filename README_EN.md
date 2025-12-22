@@ -46,7 +46,7 @@ A block diagram of the network architecture is shown below.
 
 ---
 
-## Execution (Google Colab)
+## Execution method (Google Colab)
 
 1. You can directly open the notebook on Google Colab using the button below.
 
@@ -141,7 +141,7 @@ the bottom row shows **misclassified examples**.
 
 - The MNIST dataset used for performance evaluation was originally created by
   **Y. LeCun et al.** and was obtained via
-  [`torchvision.datasets.MNIST`](https://docs.pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html).
+  [torchvision.datasets.MNIST](https://docs.pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html).
 
 - The following resource was referenced for implementing CNN models in Python:
   - [Introduction to Convolutional Neural Networks (CNNs)](https://zero2one.jp/learningblog/cnn-for-beginners/)
