@@ -14,7 +14,7 @@ on **Google Colab**.
 
 ## Overview
 
-This model is a convolutional neural network (CNN) that performs
+The model is a convolutional neural network (CNN) that performs
 **10-class image classification** using **28×28 grayscale images** as input.
 
 For performance evaluation, the model was trained on the **MNIST dataset**
@@ -33,10 +33,11 @@ for **5 epochs**, achieving an **accuracy of 98.6%** and a **loss of 4.3%**.
 
 ## Network Architecture
 
-The model takes **28×28 grayscale images** as input and consists of **two convolutional layers**
-and **two pooling layers**, followed by **three fully connected layers**.
-ReLU activation functions are used in the intermediate layers, and
-**10-class classification based on Softmax** is performed at the final layer.
+The model consists of two convolutional layers and two pooling layers,
+followed by three fully connected layers.
+It takes 28×28 grayscale images as input, uses ReLU activation functions in the intermediate layers,
+and performs 10-class classification based on the Softmax function at the final layer.
+
 
 A block diagram of the network architecture is shown below.
 
@@ -59,7 +60,7 @@ A block diagram of the network architecture is shown below.
   <img src="./README_Fig/Colab_jp.png" width="500">
 </p>
 
-3. Execute the notebook cells sequentially from top to bottom.
+3. Execute the notebook cells sequentially from top to bottom. (Execution requires logging in to a Google account.)
 
 ---
 
@@ -79,7 +80,7 @@ A block diagram of the network architecture is shown below.
 
 ## Performance Evaluation
 
-The performance of this model was evaluated using the **MNIST dataset**.
+The performance of the model was evaluated using the **MNIST dataset**.
 The MNIST dataset consists of handwritten digit images (digits 0–9),
 with **60,000 training samples** and **10,000 test samples**.
 
