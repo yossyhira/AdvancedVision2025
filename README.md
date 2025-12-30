@@ -29,7 +29,7 @@
 </p>
 
 ### 数式
-
+入力： \mathbf{x} \in \mathbb{R}^{1 \times 28 \times 28}
 
 
 
