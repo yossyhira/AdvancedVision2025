@@ -29,7 +29,12 @@
 </p>
 
 ### 数式
-入力: $\mathbf{x} \in \mathbb{R}^{1 \times 28 \times 28}$
+#### 入力
+
+入力画像 $\mathbf{x}$ を $\mathbf{x} \in \mathbb{R}^{1 \times 28 \times 28}$で表します．
+
+
+
 
 
 
