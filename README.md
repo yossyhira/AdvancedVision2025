@@ -296,6 +296,11 @@ MNISTデータセットは手書き数字(0~9)の画像データセットで60,0
 - CNNのネットワーク構成のブロック図は下記のサイトを参考にさせて頂きました.
   - [File:AlexNet_block_diagram.svg](https://commons.wikimedia.org/wiki/File:AlexNet_block_diagram.svg)
 
+- 以下は数式を書く際に参考にした文献です．
+  - 畳み込み層：[【深層学習】CNNまとめ（仕組み、ちょっとだけ数式）](https://qiita.com/nakamin/items/5096924cf4460054077d)
+  - プーリング層：[What is the equation for the max pooling?](https://eitca.org/artificial-intelligence/eitc-ai-adl-advanced-deep-learning/advanced-computer-vision/convolutional-neural-networks-for-image-recognition/what-is-the-equation-for-the-max-pooling/)
+  - 全結合層：[PyTorch:Linear](https://docs.pytorch.org/docs/stable/generated/torch.nn.Linear.html)
+  
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
