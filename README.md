@@ -165,7 +165,7 @@ $$
 \boldsymbol{z}^{(4)}=\boldsymbol{W}^{(4)}\boldsymbol{h}^{(3)} + \boldsymbol{b}^{(4)}
 $$
 
-* $\boldsymbol{W}^{(4)}\in\mathbb{R}^{120\times 84}$：第2全結合層の重み行列  
+* $\boldsymbol{W}^{(4)}\in\mathbb{R}^{84\times 120}$：第2全結合層の重み行列  
 * $\boldsymbol{b}^{(4)}\in\mathbb{R}^{84}$：第2全結合層のバイアス  
 * $\boldsymbol{z}^{(4)}\in\mathbb{R}^{84}$： 第2全結合層の全結合層の出力
 
@@ -187,7 +187,7 @@ $$
 \boldsymbol{z}^{(5)}=\boldsymbol{W}^{(5)}\boldsymbol{h}^{(4)} + \boldsymbol{b}^{(5)}
 $$
 
-* $\boldsymbol{W}^{(5)}\in\mathbb{R}^{84\times 10}$：最終全結合層の重み行列  
+* $\boldsymbol{W}^{(5)}\in\mathbb{R}^{10\times 84}$：最終全結合層の重み行列  
 * $\boldsymbol{b}^{(5)}\in\mathbb{R}^{10}$：最終全結合層のバイアス  
 * $\boldsymbol{z}^{(5)}\in\mathbb{R}^{10}$： 最終全結合層の全結合層の出力
 
