@@ -146,9 +146,9 @@ $$
 $$
 \mathbf{z}^{(3)}=\mathbf{W}^{(3)}\mathbf{f} + \mathbf{b}^{(3)},\qquad
 $$
-* $\mathbf{W}^{(3)}\in\mathbb{R}^{120\times 400}$：重み行列  
-* $\mathbf{b}^{(3)}\in\mathbb{R}^{120}$：バイアス  
-* $\mathbf{z}^{(3)}\in\mathbb{R}^{120}$： 全結合層の出力
+* $\mathbf{W}^{(3)}\in\mathbb{R}^{120\times 400}$：第1全結合層の重み行列  
+* $\mathbf{b}^{(3)}\in\mathbb{R}^{120}$：第1全結合層のバイアス  
+* $\mathbf{z}^{(3)}\in\mathbb{R}^{120}$： 第1全結合層の全結合層の出力
 
 #### 最終層(全結合層＋Softmax)
 
