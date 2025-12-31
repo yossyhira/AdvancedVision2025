@@ -142,6 +142,13 @@ $$
 #### 第1全結合層＋ReLU
 全結合層に入力するために，第2プーリング層の出力である特徴マップ $p^{(2)} \in \mathbb{R}^{16\times5\times5}$ の全要素を並べ替え，1次元ベクトル $\mathbf{f}$ に変換（flatten）します．このとき， $\mathbf{f}\in\mathbb{R}^{400}$ となります．
 
+次式に示すように，この $\mathbf{f}$ を全結合層に入力して120次元のベクトルを出力する．
+$$
+\mathbf{z}^{(3)}=\mathbf{W}^{(3)}\mathbf{f} + \mathbf{b}^{(3)},\qquad
+$$
+* $\mathbf{W}^{(3)}\in\mathbb{R}^{120\times 400}$：重み行列  
+* $\mathbf{b}^{(3)}\in\mathbb{R}^{120}$：バイアス  
+* $\mathbf{z}^{(3)}\in\mathbb{R}^{120}$： 全結合層の出力
 
 #### 最終層(全結合層＋Softmax)
 
