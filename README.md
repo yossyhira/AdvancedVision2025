@@ -39,7 +39,7 @@ $$
 入力画像の空間サイズを保持するため，パディング（padding）を施した上で畳み込みをします．
 パディングとは，入力画像の周囲に画素を追加する操作であり，本モデルではゼロパディング(囲う画素値が0)を使用し,画像の周囲を2画素分拡張します．
 出力チャンネル数を 6とし， $k$ 番目のチャンネルにおける
-出力特徴マップの位置 $(i, j)$ の値は次式で与えられる．
+出力特徴マップの位置 $(i, j)$ の値は次式で与えられます．
 
 $$
 z^{(1)}_k(i, j) = \sum_{u=1}^{5}\sum_{v=1}^{5} w^{(1)}_k(u, v) x(i - 1 + u, j - 1 + v) + b^{(1)}_k
@@ -58,7 +58,7 @@ $$
 * $z^{(1)}_k(i, j)$ : 出力特徴マップにおける位置 (i,j) の要素
 
 
-得られた畳み込み出力 $z^{(1)}_k(i, j)$ に対して，次式に示す ReLU 関数を適用する．
+得られた畳み込み出力 $z^{(1)}_k(i, j)$ に対して，次式に示す ReLU 関数を適用します．
 
 $$
 h^{(1)}_k(i, j) = \max\bigl(0, z^{(1)}_k(i, j)\bigr)
@@ -300,7 +300,7 @@ MNISTデータセットは手書き数字(0~9)の画像データセットで60,0
   - 畳み込み層：[【深層学習】CNNまとめ（仕組み、ちょっとだけ数式）](https://qiita.com/nakamin/items/5096924cf4460054077d)
   - プーリング層：[What is the equation for the max pooling?](https://eitca.org/artificial-intelligence/eitc-ai-adl-advanced-deep-learning/advanced-computer-vision/convolutional-neural-networks-for-image-recognition/what-is-the-equation-for-the-max-pooling/)
   - 全結合層：[PyTorch:Linear](https://docs.pytorch.org/docs/stable/generated/torch.nn.Linear.html)
-  
+
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
