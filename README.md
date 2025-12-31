@@ -143,20 +143,23 @@ $$
 全結合層に入力するために，第2プーリング層の出力である特徴マップ $p^{(2)} \in \mathbb{R}^{16\times5\times5}$ の全要素を並べ替え，1次元ベクトル $\mathbf{f}$ に変換（flatten）します．このとき， $\mathbf{f}\in\mathbb{R}^{400}$ となります．
 
 次式に示すように，この $\mathbf{f}$ を全結合層に入力して120次元のベクトルを出力します．
+
 $$
-\mathbf{z}^{(3)}=\mathbf{W}^{(3)}\mathbf{f} + \mathbf{b}^{(3)},\qquad
+\mathbf{z}^{(3)}=\mathbf{W}^{(3)}\mathbf{f} + \mathbf{b}^{(3)}
 $$
+
 * $\mathbf{W}^{(3)}\in\mathbb{R}^{120\times 400}$：第1全結合層の重み行列  
 * $\mathbf{b}^{(3)}\in\mathbb{R}^{120}$：第1全結合層のバイアス  
 * $\mathbf{z}^{(3)}\in\mathbb{R}^{120}$： 第1全結合層の全結合層の出力
 
-得られた $\mathbf{z}^{(3)}$ に対して，次式で表される ReLU 関数を適用します．
+得られた $\mathbf{z}^{(3)}$ の各成分 $i$ に対して，次式で表される ReLU 関数を適用します．
 
 $$
-\mathbf{h}^{(3)} = \max(\mathbf{0}, \mathbf{z}^{(3)})
+h^{(3)}_i = \max(0, z^{(3)}_i)
 $$
 
-* $\mathbf{h}^{(3)}\in\mathbb{R}^{120}$： ReLU計算後の出力
+* $\mathbf{h}^{(3)}\in\mathbb{R}^{120}$： ReLU計算後の120次元のベクトル
+* $h^{(3)}_i$： ReLU計算後の出力
 
 #### 最終層(全結合層＋Softmax)
 
