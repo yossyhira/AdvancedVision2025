@@ -90,7 +90,7 @@ max poolingとはプーリング窓内の最大値のみを残す手法で, 本�
 具体的には，ReLU関数適用後の出力 $\boldsymbol{h}^{(1)}$ の各チャンネルに対して次式を計算します．
 
 $$
-p^{(1)}_k(i, j) = \max_{\substack{0 \le a < 2 \\ 0 \le b < 2}}h^{(1)}_k(i \cdot s + a,\; j \cdot s + b) \quad (s = 2)
+p^{(1)}_k(i, j) = \max_{\substack{0 \le a < 2 \\ 0 \le b < 2}}h^{(1)}_k(i \cdot s + a, j \cdot s + b) \quad (s = 2)
 $$
 
 
