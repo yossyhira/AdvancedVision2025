@@ -141,7 +141,7 @@ $$
 第2畳み込み層の ReLU関数適用後の出力特徴マップ $\boldsymbol{h}^{(2)}$ の各チャンネルに対して次式を計算します．
 
 $$
-p^{(2)}_k(i, j) = \max_{\substack{0 \le a < 2 \\ 0 \le b < 2}}h^{(2)}_k(i \cdot s + a,\; j \cdot s + b) \quad (s = 2)
+p^{(2)}_k(i, j) = \max_{\substack{0 \le a < 2 \\ 0 \le b < 2}}h^{(2)}_k(i \cdot s + a, j \cdot s + b) \quad (s = 2)
 $$
 
 
