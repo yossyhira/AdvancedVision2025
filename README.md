@@ -90,17 +90,18 @@ max poolingとはプーリング窓内の最大値のみを残す手法で, 本�
 具体的には，ReLU関数適用後の出力 $\boldsymbol{h}^{(1)}$ の各チャンネルに対して次式を計算します．
 
 $$
-p^{(1)}_k(i, j) = \max_{n, m \in W^{(1)}(i, j)} h^{(1)}_k(n, m)
+p^{(1)}_k(i, j) = \max_{\substack{0 \le a < 2 \\ 0 \le b < 2}}h^{(1)}_k(i \cdot s + a,\; j \cdot s + b) \quad (s = 2)
 $$
+
 
 
 * $\boldsymbol{p}^{(1)}_k$ : 第1プーリング層におけるkチャンネル目のmax poolng後の出力特徴マップ
 
 * $p^{(1)}_k(i, j)$ : 出力特徴マップ上の位置 (i,j) における要素
 
-* $W^{(1)}(i, j)$ : 入力特徴マップ $\boldsymbol{h}^{(1)}_k$ において，左上の座標 $(i \cdot s, j \cdot s)$ を起点とするプーリング窓内に含まれるインデックス $(n, m)$ の集合．
+* $a, b$ :プーリング窓内の位置を示すインデックス
 
-* $s$：ストライド（本モデルでは $s=2$）
+* $s$：ストライド
 
 ここでいうストライドとは，プーリング窓の移動量のことです．
 
@@ -140,14 +141,14 @@ $$
 第2畳み込み層の ReLU関数適用後の出力特徴マップ $\boldsymbol{h}^{(2)}$ の各チャンネルに対して次式を計算します．
 
 $$
-p^{(2)}_k(i, j) = \max_{(n, m)\in W^{(2)}(i, j)} h^{(2)}_k(n, m)
+p^{(2)}_k(i, j) = \max_{\substack{0 \le a < 2 \\ 0 \le b < 2}}h^{(2)}_k(i \cdot s + a,\; j \cdot s + b) \quad (s = 2)
 $$
 
 
 * $\boldsymbol{p}^{(2)}_k$：第2プーリング層における $k$ 番目チャンネルの出力特徴マップ  
 * $p^{(2)}_k(i, j)$：出力特徴マップ上の位置 $(i, j)$ における要素  
-* $W^{(2)}(i, j)$：入力特徴マップ $h^{(2)}_k$ において，左上の座標 $(i\cdot s, j\cdot s)$ を起点とするプーリング窓内のインデックス $(n, m)$ の集合  
-* $s$：ストライド（本モデルでは $s=2$）
+* $a, b$ :プーリング窓内の位置を示すインデックス  
+* $s$：ストライド
 
 
 
@@ -157,10 +158,10 @@ $$
 次式に示すように，この $\boldsymbol{f}$ を第1全結合層に入力して120次元のベクトルを出力します．
 
 $$
-\boldsymbol{z}^{(3)}=\boldsymbol{W}^{(3)}\boldsymbol{f} + \boldsymbol{b}^{(3)}
+\boldsymbol{z}^{(3)}=\boldsymbol{W}^{(1)}\boldsymbol{f} + \boldsymbol{b}^{(3)}
 $$
 
-* $\boldsymbol{W}^{(3)}\in\mathbb{R}^{120\times 400}$：第1全結合層の重み行列  
+* $\boldsymbol{W}^{(1)}\in\mathbb{R}^{120\times 400}$：第1全結合層の重み行列  
 * $\boldsymbol{b}^{(3)}\in\mathbb{R}^{120}$：第1全結合層のバイアス  
 * $\boldsymbol{z}^{(3)}\in\mathbb{R}^{120}$： 第1全結合層の全結合層の出力
 
@@ -178,10 +179,10 @@ $$
 次式に示すように，第1全結合層とReLU関数を経た出力 $\boldsymbol{h}^{(3)}$ を第2全結合層に入力して84次元のベクトルを出力します．
 
 $$
-\boldsymbol{z}^{(4)}=\boldsymbol{W}^{(4)}\boldsymbol{h}^{(3)} + \boldsymbol{b}^{(4)}
+\boldsymbol{z}^{(4)}=\boldsymbol{W}^{(2)}\boldsymbol{h}^{(3)} + \boldsymbol{b}^{(4)}
 $$
 
-* $\boldsymbol{W}^{(4)}\in\mathbb{R}^{84\times 120}$：第2全結合層の重み行列  
+* $\boldsymbol{W}^{(2)}\in\mathbb{R}^{84\times 120}$：第2全結合層の重み行列  
 * $\boldsymbol{b}^{(4)}\in\mathbb{R}^{84}$：第2全結合層のバイアス  
 * $\boldsymbol{z}^{(4)}\in\mathbb{R}^{84}$： 第2全結合層の全結合層の出力
 
@@ -200,10 +201,10 @@ $$
 次式に示すように，第2全結合層とReLU関数を経た出力 $\boldsymbol{h}^{(4)}$ を最終全結合層に入力して10次元のベクトルを出力します．
 
 $$
-\boldsymbol{z}^{(5)}=\boldsymbol{W}^{(5)}\boldsymbol{h}^{(4)} + \boldsymbol{b}^{(5)}
+\boldsymbol{z}^{(5)}=\boldsymbol{W}^{(3)}\boldsymbol{h}^{(4)} + \boldsymbol{b}^{(5)}
 $$
 
-* $\boldsymbol{W}^{(5)}\in\mathbb{R}^{10\times 84}$：最終全結合層の重み行列  
+* $\boldsymbol{W}^{(3)}\in\mathbb{R}^{10\times 84}$：最終全結合層の重み行列  
 * $\boldsymbol{b}^{(5)}\in\mathbb{R}^{10}$：最終全結合層のバイアス  
 * $\boldsymbol{z}^{(5)}\in\mathbb{R}^{10}$： 最終全結合層の全結合層の出力
 
@@ -312,7 +313,7 @@ MNISTデータセットは手書き数字(0~9)の画像データセットで60,0
 
 - 以下は数式を書く際に参考にした文献です．
   - 畳み込み層：[【深層学習】CNNまとめ（仕組み、ちょっとだけ数式）](https://qiita.com/nakamin/items/5096924cf4460054077d)
-  - プーリング層：[What is the equation for the max pooling?](https://eitca.org/artificial-intelligence/eitc-ai-adl-advanced-deep-learning/advanced-computer-vision/convolutional-neural-networks-for-image-recognition/what-is-the-equation-for-the-max-pooling/)
+  - プーリング層：[Convolutional neural network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
   - 全結合層：[PyTorch:Linear](https://docs.pytorch.org/docs/stable/generated/torch.nn.Linear.html)
 
 ## ライセンス
