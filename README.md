@@ -95,7 +95,7 @@ $$
 
 
 
-* $\boldsymbol{p}^{(1)}_k \in \mathbb{R}^{6 \times 14 \times 14} $ : 第1プーリング層におけるkチャンネル目のmax poolng後の出力特徴マップ
+* $\boldsymbol{p}^{(1)}_k \in \mathbb{R}^{6 \times 14 \times 14}$ : 第1プーリング層におけるkチャンネル目のmax poolng後の出力特徴マップ
 
 * $p^{(1)}_k(i, j)$ : 出力特徴マップ上の位置 (i,j) における要素
 
